@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Max S. Rodenkirchen - Sinn Sehen - FH AC 2022 - bei Eva Vitting</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+   
+<script src="sketch.js"></script>
+    <!-- <script src="test.js"></script>-->
+      
+    <script src="./src/CCapture.js"></script>
+    <script src="./src/webm-writer-0.2.0.js"></script>
+    <script src="./src/download.js"></script>
+    <script>
+
+      var capturer = new CCapture ({
+        format: 'webm',
+        framerate: 60,
+        verbose: true
+      })
+      
+    </script>
+
+    <div class="outer">
+      <div class="container">
+
+        <div class="sidebarleft">
+          <div class = "menu">
+
+            <h2>Concept</h2>
+            <h2>Tutorial</h2>
+            <h2>Draw</h2>
+            <h2>Examples</h2>
+
+          </div>
+          
+
+          <div class = "templates">
+
+              
+            <div id = "a1">
+              <h3>Templates</h3><br>
+            </div>
+
+            <div id = "a2">
+              <a href = "temp-1.html">
+                <img src = "img/test.png" id = "test" alt = "an image of template 1">
+              </a>
+            </div>
+
+            <div id = "a3">
+              <a href = "temp-1.html">
+                <img src = "img/test.png" id = "test" alt = "an image of template 1">
+              </a>
+            </div>
+
+            <div id = "a4">
+              <a href = "temp-1.html">
+                <img src = "img/test.png" id = "test" alt = "an image of template 1">
+              </a>
+            </div>
+        
+      
+          </div>
+         
+          
+        </div>
+
+        <div class="draw">
+          <p id="canvas"></p>
+
+        </div>
+
+
+        <div class="label">
+
+          <p id = "l1"> </p>
+          <p id = "l2">Shapes </p>
+          <p id = "l3"> </p>
+          <p id = "l4">Size </p>
+          <p id = "l5"> </p>
+          <p id = "l6">Rotate </p>
+          <p id = "l7">Automation </p>
+          <p id = "l8"> </p>
+          <p id = "l9"> </p>
+          <p id = "l10">Hue </p>
+          <p id = "l11">Saturation </p>
+          <p id = "l12">Brightness </p>
+          <p id = "l13"> </p>
+          <p id = "l14"> </p>
+          <p id = "l15">Weight </p>
+          <p id = "l16">Hue </p>
+          <p id = "l17">Saturation </p>
+          <p id = "l18">Brightness </p>
+          <p id = "l19">Alpha </p>
+          <p id = "l20"> </p>
+          <p id = "l21"> </p>
+          <p id = "l22">Hue </p>
+          <p id = "l23">Saturation </p>
+          <p id = "l24">Brightness </p>
+          <p id = "l25">Alpha </p>
+          <p id = "l26"> </p>
+          <p id = "l27">X-Position </p>
+          <p id = "l28">Y-Position </p>
+          <p id = "l29"> </p>
+          <p id = "l30">Download-> </p>
+          <p id = "l31"> </p>
+          <p id = "l32">Render-->  </p>
+
+        </div>
+
+        <div class="slider">
+
+          <p id = "1"> </p>
+          <p id = "2"> </p>
+          <p id = "3"> </p>
+          <p id = "4"> </p>
+          <p id = "5"> </p>
+          <p id = "6"> </p>
+          <p id = "7"> </p>
+          <p id = "8"> </p>
+          <p id = "9"> Background</p>
+          <p id = "10"> </p>
+          <p id = "11"> </p>
+          <p id = "12"> </p>
+          <p id = "13"> </p>
+          <p id = "14">Stroke </p>
+          <p id = "15"> </p>
+          <p id = "16"> </p>
+          <p id = "17"> </p>
+          <p id = "18"> </p>
+          <p id = "19"> </p>
+          <p id = "20"> </p>
+          <p id = "21">Fill </p>
+          <p id = "22"> </p>
+          <p id = "23"> </p>
+          <p id = "24"> </p>
+          <p id = "25"> </p>
+          <p id = "26"> </p>
+          <p id = "27"> </p>
+          <p id = "28"> </p>
+          <p id = "29"> </p>
+          <p id = "30"> </p>
+          <p id = "31"> </p>
+          <p id = "32"> </p>
+          
+
+        </div>
+
+        <div class="check">
+
+          <p id = "c1"> </p>
+          <p id = "c2"> </p>
+          <p id = "c3"> </p>
+          <p id = "c4"> </p>
+          <p id = "c5"> </p>
+          <p id = "c6"> </p>
+          <p id = "c7"> </p>
+          <p id = "c8"> </p>
+          <p id = "c9"> </p>
+          <p id = "c10"> </p>
+          <p id = "c11"> </p>
+          <p id = "c12"> </p>
+          <p id = "c13"> </p>
+          <p id = "c14"> </p>
+          <p id = "c15"> </p>
+          <p id = "c16"> </p>
+          <p id = "c17"> </p>
+          <p id = "c18"> </p>
+          <p id = "c19"> </p>
+          <p id = "c20"> </p>
+          <p id = "c21"> </p>
+          <p id = "c22"> </p>
+          <p id = "c23"> </p>
+          <p id = "c24"> </p>
+          <p id = "c25"> </p>
+          <p id = "c26"> </p>
+          <p id = "c27"> </p>
+          <p id = "c28"> </p>
+          <p id = "c29"> </p>
+          <p id = "c30"> </p>
+          <p id = "c31"> </p>
+          <p id = "c32"> </p>
+          
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </body>
+</html>
